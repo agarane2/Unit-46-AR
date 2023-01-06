@@ -1,1 +1,11 @@
 
+<style>
+.circle {
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  background: #333;
+}
+</style>
+
+<div class="circle"></div>
