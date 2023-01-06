@@ -1,0 +1,10 @@
+<body style='margin : 0px; overflow: hidden;'>
+<a-scene embedded arjs='sourceType: webcam;'>
+    <a-entity
+            rotation="-90 0 0"
+            geometry="primitive: plane; width: 4; height: auto"
+            material="color: blue"
+            text="value: Alexender Statue\n Alexandria"></a-entity><a-image src="images/ar.png" rotation="-90 0 0"></a-image>
+    <a-marker-camera preset='hiro'></a-marker-camera>
+</a-scene>
+</body>
